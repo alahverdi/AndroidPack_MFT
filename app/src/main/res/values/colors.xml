@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF0DD5D3</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- main colors : -->
+    <color name="colorAccent">#ee254f</color>
+    <color name="colorAccentDark">#ee254f</color>
+    <color name="colorAccentDark2">#711427</color>
+    <color name="colorAccentDark3">#350C0C</color>
+
+
+    <!-- product price color : -->
+    <color name="price_color">#4CAF50</color>
+
+    <!-- green button : -->
+    <color name="btn_green">#27b092</color>
+    <color name="btn_green_dark">#235546</color>
+
+    <!-- rating bar : -->
+    <color name="ratingBar_gold">#FFDF00</color>
+    <color name="ratingBar_gray">#727272</color>
+
+    <!-- normal text color: -->
+    <color name="normal_text_color">#727272</color>
+    <color name="stroke_editText_normal">#9A9A9A</color>
+
+    <!-- slider : -->
+    <color name="slider_dot">#9A9A9A</color>
+
+    <!-- separator view : -->
+    <color name="line_separator">#9A9A9A</color>
+
+    <!-- dark item : -->
+    <color name="dark_item">#1E1E1E</color>
+
+
+
+</resources>

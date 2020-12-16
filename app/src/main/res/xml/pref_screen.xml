@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="تنظیمات آیتم های لیست کالاها"
+        >
+
+        <SwitchPreference
+            android:id="@+id/switch_color"
+            android:defaultValue="false"
+            android:key="switch_preference_tittle_color"
+            android:summaryOff="تیره"
+            android:summaryOn="روشن"
+            android:title="تغییر رنگ عنوان آگهی" />
+        <SwitchPreference
+            android:id="@+id/switch_txtSize"
+            android:defaultValue="true"
+            android:key="switch_preference_tittle_size"
+            android:summaryOff="کوچک"
+            android:summaryOn="بزرگ"
+            android:title="تغییر سایز عنوان آگهی" />
+        <SwitchPreference
+            android:id="@+id/switch_font"
+            android:defaultValue="false"
+            android:key="switch_preference_tittle_font"
+            android:summaryOff="فونت یکان"
+            android:summaryOn="فونت نستعلیق"
+            android:title="تغییر فونت عنوان آگهی" />
+        <SwitchPreference
+            android:id="@+id/switch_theme"
+            android:defaultValue="false"
+            android:key="switch_preference_tittle_bgColor"
+            android:summaryOff="روشن"
+            android:summaryOn="تیره"
+            android:title="تغییر پس زمینه لیست" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="تنظیمات عمومی">
+
+        <EditTextPreference
+            android:id="@+id/et_list_name"
+            android:key="et_preference_list_name"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="نام لیست کالاها"
+            app:summary="نام دلخواهی برای لیست کالاها انتخاب کنید" />
+
+    </PreferenceCategory>
+</PreferenceScreen>

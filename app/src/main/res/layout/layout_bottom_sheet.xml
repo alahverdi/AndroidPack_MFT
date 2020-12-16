@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="8dp">
+
+    <TextView
+        android:id="@+id/tv_price_chart"
+        style="@style/bottom_sheet"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/digikala_font"
+        android:text="@string/action_price_chart"
+        app:drawableEndCompat="@drawable/ic_chart"
+        app:drawableRightCompat="@drawable/ic_chart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        style="@style/view_separator"
+        android:layout_marginTop="68dp"
+        android:background="@color/line_separator"
+        app:layout_constraintBottom_toTopOf="@+id/tv_compare"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tv_compare"
+        style="@style/bottom_sheet"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/digikala_font"
+        android:text="@string/action_compare"
+        app:drawableEndCompat="@drawable/ic_compare"
+        app:drawableRightCompat="@drawable/ic_compare"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_price_chart" />
+
+    <View
+        style="@style/view_separator"
+        android:layout_marginTop="132dp"
+        android:background="@color/line_separator"
+        app:layout_constraintBottom_toTopOf="@+id/tv_share"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tv_share"
+        style="@style/bottom_sheet"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/digikala_font"
+        android:text="@string/action_share"
+        app:drawableEndCompat="@drawable/ic_share"
+        app:drawableRightCompat="@drawable/ic_share"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_compare" />
+
+    <View
+        style="@style/view_separator"
+        android:layout_marginTop="192dp"
+        android:background="@color/line_separator"
+        app:layout_constraintBottom_toTopOf="@+id/tv_alert"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.156" />
+
+    <TextView
+        android:id="@+id/tv_alert"
+        style="@style/bottom_sheet"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/digikala_font"
+        android:text="@string/action_alert"
+        app:drawableEndCompat="@drawable/ic_add_alert"
+        app:drawableRightCompat="@drawable/ic_add_alert"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_share" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

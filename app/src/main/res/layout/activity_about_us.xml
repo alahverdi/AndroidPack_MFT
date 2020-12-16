@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout_DetailsActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr"
+    tools:context=".ui.AboutUsActivity">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/toolbar_details"
+                style="@style/Widget.MaterialComponents.Toolbar.Primary"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:theme="@style/MyThemeOverlay_Toolbar"
+                app:layout_scrollFlags="scroll|enterAlways">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="end"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/toolbar_textView"
+                        android:paddingStart="@dimen/standard_padding"
+                        android:paddingEnd="@dimen/standard_padding"
+                        android:text="@string/about_us" />
+                </LinearLayout>
+
+
+            </com.google.android.material.appbar.MaterialToolbar>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layoutDirection="rtl"
+                tools:context=".ui.AboutUsActivity">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:contentDescription="@string/my_website"
+                        android:src="@drawable/bg_about_us" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btn_confirm"
+                        style="@style/btn_material"
+                        android:layout_marginTop="8dp"
+                        android:onClick="onclick_website"
+                        android:text="@string/my_website"
+                        app:icon="@drawable/ic_open_in_browser" />
+
+                    <TextView
+                        style="@style/about_us_textView"
+                        android:background="@drawable/selector_default_edittext"
+                        android:paddingStart="@dimen/standard_padding"
+                        android:paddingEnd="@dimen/standard_padding"
+                        android:text="@string/my_name"
+                        app:drawableStartCompat="@drawable/ic_person" />
+
+                    <TextView
+                        style="@style/about_us_textView"
+                        android:background="@drawable/selector_default_edittext"
+                        android:paddingStart="@dimen/standard_padding"
+                        android:paddingEnd="@dimen/standard_padding"
+                        android:text="@string/my_email"
+                        app:drawableStartCompat="@drawable/ic_email" />
+
+                    <TextView
+                        android:id="@+id/phone_aboutUs"
+                        style="@style/about_us_textView"
+                        android:background="@drawable/selector_default_edittext"
+                        android:onClick="callMe"
+                        android:paddingStart="@dimen/standard_padding"
+                        android:paddingEnd="@dimen/standard_padding"
+                        android:text="@string/my_phoneNumber"
+                        android:textColor="#3F51B5"
+                        android:textSize="@dimen/huge_font_size"
+                        app:drawableStartCompat="@drawable/ic_phone" />
+
+                    <TextView
+                        style="@style/about_us_textView"
+                        android:background="@drawable/selector_default_edittext"
+                        android:paddingStart="@dimen/standard_padding"
+                        android:paddingEnd="@dimen/standard_padding"
+                        android:text="@string/my_teacher"
+                        app:drawableStartCompat="@drawable/ic_course" />
+
+                    <TextView
+                        style="@style/about_us_textView"
+                        android:background="@drawable/selector_default_edittext"
+                        android:paddingStart="@dimen/standard_padding"
+                        android:paddingEnd="@dimen/standard_padding"
+                        android:text="@string/my_course"
+                        app:drawableStartCompat="@drawable/ic_course" />
+
+                    <TextView
+                        style="@style/about_us_textView"
+                        android:layout_marginBottom="@dimen/large_margin"
+                        android:background="@drawable/selector_default_edittext"
+                        android:paddingStart="@dimen/standard_padding"
+                        android:paddingEnd="@dimen/standard_padding"
+                        android:text="@string/MFT"
+                        app:drawableStartCompat="@drawable/ic_location" />
+                </LinearLayout>
+
+            </androidx.core.widget.NestedScrollView>
+
+        </LinearLayout>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

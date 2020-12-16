@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">Digikala</string>
+
+    <!-- main layout : -->
+    <string name="search_products">جستجو در همه کالاها ...</string>
+    <string name="display_grid">نمایش لیست به صورت دو ستونه</string>
+    <string name="display_list">نمایش به صورت یک ستونه</string>
+    <string name="sort">مرتب سازی</string>
+
+    <!-- about us layout : -->
+    <string name="about_us">درباره ما</string>
+    <string name="my_name">علـــی اللهـــوردی</string>
+    <string name="my_email">Al.Allahverdi@Gmail.com</string>
+    <string name="my_phoneNumber">09359172200</string>
+    <string name="my_teacher">مدرس: آقای دکتر وحید بختیاری</string>
+    <string name="my_course">دوره پکیج اندروید (مقدماتی)</string>
+    <string name="MFT">مجتمع فنی تهران (میدان ونک)</string>
+    <string name="my_website">مشاهده وبسایت</string>
+
+    <!-- Details layout : -->
+    <string name="digikala_tips">
+        خوشحالیم که دیجی کالا را برای خرید انتخاب کرده اید. همواره در تلاشیم تا با فراهم آوردن با کیفیت ترین خدمات، شما را با خود همراه سازیم. به منظور رفاه حالتان از این پس میتوانید گزارشات مربوط به هر خرید را در صفحه تامین کننده مربوطه درج نمایید و همچنین به آیتم های مختلف خدماتی، امتیاز بدهید. به شما توصیه میکنیم قبل از خرید به امتیازات و تاریخچه ی تامین کننده ی کالا نگاهی داشته باشید و ترجیحا تامین کننده های با امتیاز بالاتر را انتخاب کنید. دیجی کالا پشتیبان شماست و میتوانید در صورتی که هر یک آیتم های خدماتی تامین کننده، مغایر با ادعای درج شده در سایت بود، وجه خود را به طور کامل دریافت کرده و کالا را پس بفرستید. بررسی، انتخاب و خرید آنلاین با دیجی کالا
+    </string>
+    <string name="call">تماس</string>
+    <string name="sms">پیامک</string>
+    <string name="price">قیمت کالا (تومان)</string>
+    <string name="model">مدل</string>
+    <string name="id">شماره کالا (ID)</string>
+    <string name="seller">فروشنده</string>
+    <string name="product_tittle">عنوان کالا</string>
+    <string name="product_details">جزئیات کالا</string>
+    <string name="digikala_logo_seller">لوگوی دیجی کالا بعنوان فروشنده ی کالا</string>
+    <string name="more_option">جزئیات بیشتر در مورد کالا</string>
+    <string name="product_pic">عکس کالا</string>
+    <string name="digikala_logo_suggestion">لوگوی پیشنهاد دیجی کالا</string>
+
+    <!-- bottom sheet menu : -->
+    <string name="action_price_chart">نمودار قیمت</string>
+    <string name="action_compare">مقایسه محصول</string>
+    <string name="action_share">به اشتراک گذاری کالا</string>
+    <string name="action_alert">اطلاع رسانی شگفت انگیز</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- GPS layout : -->
+    <string name="back">بازگشت</string>
+    <string name="show_on_map">نمایش روی نقشه</string>
+    <string name="altitude">ارتفاع</string>
+    <string name="latitude">طول جغرافیایی</string>
+    <string name="longitude">عرض جغرافیایی</string>
+
+    <!-- GPS alert dialog : -->
+    <string name="turnON_GPS">لطفا GPS دستگاه خود را روشن کنید</string>
+
+    <!-- music layout : -->
+    <string name="search_music">جستجوی آهنگ ...</string>
+
+    <!-- music details layout : -->
+    <string name="music_details">جزئیات آهنگ دانلود شده</string>
+    <string name="song_name">نام آهنگ</string>
+    <string name="file_size">سایز فایل</string>
+    <string name="file_address">آدرس فایل</string>
+    <string name="main_page">صفحه اصلی</string>
+
+    <!-- register layout : -->
+    <string name="register">ثبت نام / ورود</string>
+    <string name="submit">ثبت اطلاعات</string>
+    <string name="password">رمز عبور</string>
+    <string name="email">پست الکترونیک</string>
+    <string name="phoneNumber">شماره موبایل</string>
+    <string name="full_name">نام و نام خانوادگی</string>
+    <string name="register_banner">register_banner</string>
+
+    <!-- registers alert dialog : -->
+    <string name="congratulations">تبریک!</string>
+    <string name="your_info_registered">اطلاعات شما ثبت شد!</string>
+    <string name="start">شروع!</string>
+    <string name="accept">accept</string>
+    <string name="edit_info">ویرایش اطلاعات</string>
+
+    <!-- network alert dialog : -->
+    <string name="network_error">خطا در اتصال به اینترنت ...</string>
+    <string name="btn_setting_data">btn_setting_data</string>
+    <string name="btn_setting_wifi">btn_setting_wifi</string>
+
+    <!-- navigation menu : -->
+    <string name="nav_menu_header">nav_menu_header</string>
+    <string name="digikala_logo">digikala_logo</string>
+
+    <!-- list items : -->
+    <string name="toman">تومان</string>
+    <string name="product_number">شماره کالا</string>
+
+    <!-- text samples : -->
+    <string name="number">0.0</string>
+    <string name="text_sample">متن</string>
+    <string name="profile">حساب کاربری</string>
+    <string name="music_download">دانلود آهنگ</string>
+    <string name="app_setting">تنظیمات</string>
+    <string name="contact_us">تماس با ما</string>
+
+</resources>
