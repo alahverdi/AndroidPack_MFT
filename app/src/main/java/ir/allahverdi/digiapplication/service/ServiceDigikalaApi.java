@@ -65,12 +65,6 @@ public class ServiceDigikalaApi extends IntentService {
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 
     private void getDataApi() {
-        try {
-            Thread.sleep(2000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
         // 1) make instance of Retrofit
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(DigikalaApi.BASE_CLASS)
@@ -104,6 +98,8 @@ public class ServiceDigikalaApi extends IntentService {
                         new ProductDbHelper(ServiceDigikalaApi.this).insert(product);
                     }
                 }
+                Intent successIntent = new Intent("SuccessApi");
+                sendBroadcast(successIntent);
             }
 
             @Override
@@ -111,9 +107,6 @@ public class ServiceDigikalaApi extends IntentService {
                 Log.e(TAG, "onFailure: " + t.getMessage());
             }
         });
-
-        Intent successIntent = new Intent("SuccessApi");
-        sendBroadcast(successIntent);
 
     }
 
